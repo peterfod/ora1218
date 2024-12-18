@@ -25,6 +25,7 @@
 body
 {
    font-family: 'Trebuchet MS', Arial, sans-serif;
+   background-image: url("/images/yellow_background.png"); /* 6. feladat */
 }
 
 #main_wrapper
@@ -37,6 +38,7 @@ section h1, footer h1, nav a
 {
     font-family: Dayrom, serif;
     font-weight: normal;
+    text-transform: uppercase; /* 7. feladat */
 }
 
 #main_title
@@ -48,7 +50,7 @@ header h1
 {
     font-family: 'BallparkWeiner', serif;
     font-size: 2.5em;
-    font-weight: normal;
+    font-weight: normal;    
 }
 
 #logo, header h1
@@ -80,6 +82,7 @@ nav ul
 nav li
 {
     margin-right: 15px;
+    display: inline-block; /* 8. feladat */
 }
 
 nav a
@@ -88,6 +91,12 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
+}
+
+/* 11. feladat: */
+nav a:hover {
+    color: red;
+    border-bottom: 3px #700620 solid;
 }
 
 #banner_image
@@ -129,6 +138,7 @@ nav a
     text-align: center;
     padding: 3px 8px 0px 8px;
     color: white;
+    text-decoration: none; /* 9. feladat */
 }
 
 .red_button img
@@ -140,6 +150,7 @@ article, aside
 {
     display: inline-block;
     vertical-align: top;
+    text-align: justify; /* 10. feladat */
 }
 
 article
@@ -242,7 +253,7 @@ article p
 {
     position: absolute;
     top: 100px;
-    left: -20px;
+    left: -10px; /* 12. feladat */
 }
 
 #tweet
